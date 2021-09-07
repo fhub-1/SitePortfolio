@@ -1,15 +1,15 @@
 const userData = {
-  githubUsername: "manuarora700",
-  name: "Manu Arora",
-  designation: "Full-Stack Developer",
-  avatarUrl: "/avatar.png",
-  email: "manuarorawork@gmail.com",
-  phone: "+91 9587738861",
-  address: "Jaipur, Rajasthan, India.",
+  githubUsername: "fhub-1",
+  name: "Joseph Kitheka",
+  designation: "Front-End Developer",
+  avatarUrl: "/avatar.jpg",
+  email: "flutterhub.1.21.0@gmail.com",
+  phone: "+254 795 164 401",
+  address: "Mombasa, Nyali, Kenya.",
   projects: [
     {
-      title: "Tailwind Master Kit",
-      link: "https://tailwindmasterkit.com",
+      title: "TailwindCSS Framewwork",
+      link: "https://tailwindcss.com/",
       imgUrl: "/tmk.jpg",
     },
     {
@@ -56,7 +56,7 @@ const userData = {
       `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
       `But now, I'm a legend. I've been coding in React, Angular, Vue, Svelte, Node.js, Express, Fastify, MongoDB, MySQL, Bootstrap, Tailwind, C, C++, C#, Rust, Haskell, Perl, PHP, Assembly, Logo and YouDontKnowShit programming language etc to name a few. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer I'm laughing right now.`,
     ],
-    currentProject: "Tailwind Master Kit",
+    currentProject: "Self Employed",
     currentProjectUrl: "https://tailwindmasterkit.com",
   },
   experience: [
