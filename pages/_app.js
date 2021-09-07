@@ -1,26 +1,28 @@
-import { useEffect } from "react";
-import { useRouter } from "next/router";
-import * as gtag from "../lib/gtag";
 import "../styles/globals.css";
 import { ThemeProvider } from "next-themes";
+import Script from "next/script";
 
-const MyApp = ({ Component, pageProps }) => {
-  const router = useRouter();
-  useEffect(() => {
-    const handleRouteChange = (url) => {
-      gtag.pageview(url);
-    };
-    router.events.on("routeChangeComplete", handleRouteChange);
-    return () => {
-      router.events.of("routeChangeComplete", handleRouteChange);
-    };
-  }, [router.events]);
-
+function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider defaultTheme="light" attribute="class">
-      <Component {...pageProps} />
-    </ThemeProvider>
+    <>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-NW12Q5EQ1B`}
+      />
+
+      <Script strategy="lazyOnload">
+        {`window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NW12Q5EQ1B');`}
+      </Script>
+
+      <ThemeProvider defaultTheme="light" attribute="class">
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </>
   );
-};
+}
 
 export default MyApp;

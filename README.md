@@ -2,7 +2,6 @@
 
 **UPDATE:**
 
-
 1. Wrote a detailed blog on [freeCodeCamp](https://www.freecodecamp.org/news/how-to-build-a-portfolio-site-with-nextjs-tailwindcss/), describing and explaining how I built this application from the ground up.
 
 2. Included the `constants` folder, where you can directly add your details and it'll get reflected throughout the application. No more customizations for the template required, just add your data and it'll reflect immediately.
@@ -74,3 +73,41 @@ This template is completely open source and free to use. Use it for client proje
 # Support
 
 <a href="https://www.buymeacoffee.com/manuarora" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
+<!--
+import Document, { Html, Head, Main, NextScript } from "next/document";
+
+import { GA_TRACKING_ID } from "../lib/gtag";
+
+export class MyDocuments extends Document {
+  render() {
+    return (
+      <Html>
+        <Head>
+          {/* Global Site Tag (gtag.js) -Google Analytics */}
+          <script
+            async
+            src={`htps://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                     window.dataLayer = window.dataLayer || [];
+                      function gtag(){dataLayer.push(arguments);}
+                      gtag('js', new Date());
+
+                      gtag('config', '${GA_TRACKING_ID}, {
+                          page_path: window.location.pathname,
+                      })
+                     `,
+            }}
+          />
+        </Head>
+        <body>
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    );
+  }
+} -->
