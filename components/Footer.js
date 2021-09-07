@@ -15,7 +15,7 @@ export default function Footer() {
               Developed by
               <div className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300">
                 <a
-                  className="hover:bg-red-500 rounded-md px-2 py-1  hover:text-gray-500"
+                  className="hover:bg-indigo-500 rounded-md px-2 py-1  hover:text-gray-500"
                   href="https://manuarora.in"
                 >
                   Joseph Kitheka
