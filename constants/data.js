@@ -10,42 +10,27 @@ const userData = {
     {
       title: "TailwindCSS Framewwork",
       link: "https://tailwindcss.com/",
-      imgUrl: "/tmk.jpg",
+      imgUrl: "/car.png",
     },
     {
-      title: "PlaceholderTech",
-      link: "https://placeholdertech.in",
-      imgUrl: "/placeholdertech.png",
+      title: "RentYourCar",
+      link: "https://rentcar2021.netlify.app/",
+      imgUrl: "/car.png",
     },
     {
-      title: "Portfolio",
-      link: "https://manuarora.in",
-      imgUrl: "/portfolio.png",
+      title: "IP Address Tracker",
+      link: "https://iptracker2021.netlify.app/",
+      imgUrl: "/ip.png",
     },
     {
-      title: "CovidRescue",
-      link: "https://covidrescue.co.in",
-      imgUrl: "/covidrescue.png",
+      title: "Your hand Note",
+      link: "https://yourhand.netlify.app/",
+      imgUrl: "/hand.png",
     },
     {
-      title: "Algochurn",
-      link: "https://algochurn.com",
-      imgUrl: "/algochurn.png",
-    },
-    {
-      title: "Playground",
-      link: "https://play.placeholdertech.in",
-      imgUrl: "/playground.png",
-    },
-    {
-      title: "Feedmeback",
-      link: "https://feedmeback.vercel.app",
-      imgUrl: "/feedmeback.png",
-    },
-    {
-      title: "Devmedium",
-      link: "https://devmedium.vercel.app",
-      imgUrl: "/devmedium.png",
+      title: "Covid-19 Tracker",
+      link: "https://flutter-hub-covid.netlify.app/",
+      imgUrl: "/covi.png",
     },
   ],
   about: {
@@ -57,7 +42,7 @@ const userData = {
       `But now, I'm a legend. I've been coding in React, Angular, Vue, Next.js, Node.js, Express, Fastify, MongoDB, MySQL, Postgresql, Bootstrap, Tailwind, Assembly, Logo and YouDontKnowShit programming language etc to name a few. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer I'm laughing right now.`,
     ],
     currentProject: "Self Employed",
-    currentProjectUrl: "https://tailwindmasterkit.com",
+    currentProjectUrl: "https://www.linkedin.com/in/joseph-kitheka-4827a01a7/",
   },
   experience: [
     {
