@@ -33,12 +33,12 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-
+          {/* 
           <script
             type="text/javascript"
             charset="UTF-8"
             src="//cdn.cookie-script.com/s/b6d929c12d155947d9f244c5d2b4d662.js"
-          ></script>
+          ></script> */}
         </body>
       </Html>
     );
