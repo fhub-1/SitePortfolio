@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
+import * as gtag from "../lib/gtag";
 import "../styles/globals.css";
 import { ThemeProvider } from "next-themes";
-import * as gtag from "../lib/gtag";
 
 const MyApp = ({ Component, pageProps }) => {
   const router = useRouter();
@@ -24,16 +24,3 @@ const MyApp = ({ Component, pageProps }) => {
 };
 
 export default MyApp;
-
-// import "../styles/globals.css";
-// import { ThemeProvider } from "next-themes";
-
-// function MyApp({ Component, pageProps }) {
-//   return (
-//     <ThemeProvider defaultTheme="light" attribute="class">
-//       <Component {...pageProps} />
-//     </ThemeProvider>
-//   );
-// }
-
-// export default MyApp;
