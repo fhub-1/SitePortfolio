@@ -106,11 +106,11 @@ const userData = {
   resumeUrl:
     "https://drive.google.com/file/d/15uZ9tCIj2TzHvLTvceIdAL_HNwSfCHK7/view?usp=sharing",
   socialLinks: {
-    instagram: "https://instagram.com/maninthere",
-    twitter: "https://twitter.com/mannupaaji",
-    linkedin: "https://linkedin.com/in/manuarora28",
-    github: "https://github.com/manuarora700",
-    facebook: "https://facebook.com/",
+    instagram: "https://www.instagram.com/flutterhub1.21/",
+    twitter: "https://twitter.com/@josephk91292845",
+    linkedin: "https://www.linkedin.com/in/joseph-kitheka-4827a01a7/",
+    github: "https://github.com/fhub-1",
+    facebook: "https://web.facebook.com/jose.josek.5872",
   },
 };
 
