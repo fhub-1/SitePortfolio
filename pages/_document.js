@@ -7,7 +7,11 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-            <script data-ad-client="ca-pub-1327925580473487" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <script
+            data-ad-client="ca-pub-1327925580473487"
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          ></script>
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
             async
@@ -29,6 +33,12 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+
+          <script
+            type="text/javascript"
+            charset="UTF-8"
+            src="//cdn.cookie-script.com/s/b6d929c12d155947d9f244c5d2b4d662.js"
+          ></script>
         </body>
       </Html>
     );
