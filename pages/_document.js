@@ -33,12 +33,8 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          {/* 
-          <script
-            type="text/javascript"
-            charset="UTF-8"
-            src="//cdn.cookie-script.com/s/b6d929c12d155947d9f244c5d2b4d662.js"
-          ></script> */}
+
+          <script src="https://partner.googleadservices.com/gampad/cookie.js?domain=www.flutterhub.online&callback=_gfp_s_&client=ca-pub-1327925580473487&cookie=ID%3Dfc2cb5566324b8b8-22d2822be8ca00e5%3AT%3D1631097555%3ART%3D1631097555%3AS%3DALNI_MYDx3o9wLj28KWZHEN5xiRaMVfjig"></script>
         </body>
       </Html>
     );
