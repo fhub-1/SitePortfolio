@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import CookieConsent from "react-cookie-consent";
 
 import { GA_TRACKING_ID } from "../lib/gtag";
 
@@ -33,9 +34,20 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-
-          <script src="https://partner.googleadservices.com/gampad/cookie.js?domain=www.flutterhub.online&callback=_gfp_s_&client=ca-pub-1327925580473487&cookie=ID%3Dfc2cb5566324b8b8-22d2822be8ca00e5%3AT%3D1631097555%3ART%3D1631097555%3AS%3DALNI_MYDx3o9wLj28KWZHEN5xiRaMVfjig"></script>
         </body>
+        <CookieConsent
+          location="bottom"
+          buttonText="Sure man!!"
+          cookieName="myAwesomeCookieName2"
+          style={{ background: "#2B373B" }}
+          buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+          expires={150}
+        >
+          This website uses cookies to enhance the user experience.{" "}
+          <span style={{ fontSize: "10px" }}>
+            This bit of text is smaller :O
+          </span>
+        </CookieConsent>
       </Html>
     );
   }
