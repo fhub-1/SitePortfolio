@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { ThemeProvider } from "next-themes";
 import * as gtag from "../lib/gtag";
 
-const App = ({ Component, pageProps }) => {
+const MyApp = ({ Component, pageProps }) => {
   const router = useRouter();
   useEffect(() => {
     const handleRouteChange = (url) => {
@@ -22,4 +22,4 @@ const App = ({ Component, pageProps }) => {
   );
 };
 
-export default App;
+export default MyApp;
