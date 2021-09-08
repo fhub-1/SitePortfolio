@@ -36,6 +36,7 @@ export default class MyDocument extends Document {
           <NextScript />
         </body>
         <CookieConsent
+          debug={true}
           location="bottom"
           buttonText="Sure man!!"
           cookieName="myAwesomeCookieName2"
