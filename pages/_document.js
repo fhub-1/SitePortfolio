@@ -7,6 +7,9 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
+             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1327925580473487"
+              crossorigin="anonymous"></script>
+              
           <script
             data-ad-client="ca-pub-1327925580473487"
             async
