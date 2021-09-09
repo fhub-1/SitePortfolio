@@ -2,8 +2,6 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 
 import { GA_TRACKING_ID } from "../lib/gtag";
 
-import CookieConsent from "react-cookie-consent";
-
 export default class MyDocument extends Document {
   render() {
     return (
@@ -38,9 +36,6 @@ export default class MyDocument extends Document {
             }}
           />
         </Head>
-
-        <CookieConsent debug={true}>This site uses cookies.</CookieConsent>
-
         <body>
           <Main />
           <NextScript />
