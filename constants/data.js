@@ -96,6 +96,7 @@ const userData = {
     linkedin: "https://www.linkedin.com/in/joseph-kitheka-4827a01a7/",
     github: "https://github.com/fhub-1",
     facebook: "https://web.facebook.com/jose.josek.5872",
+    youtube: "https://www.youtube.com/channel/UCAOdLWYUTCgX5PjNSI2DNIg",
   },
 };
 

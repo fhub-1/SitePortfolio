@@ -36,19 +36,13 @@ const MyApp = ({ Component, pageProps }) => {
             expireAfter: 365,
           }}
         >
-          This site uses cookies.See Our{" "}
+          This site uses cookies to provide you with a better user experience.
+          For more information, refer to our{" "}
           <Link href="https://www.freeprivacypolicy.com/live/3a76bbca-415c-44d2-90e2-04567419725a">
-            <button
-              style={{
-                background: "indigo",
-                fontSize: "14px",
-                color: "gray",
-              }}
-            >
+            <button className="bg-indigo-500 rounded-md px-2 py-1 text-2xl font-semibold">
               Privacy Policy
             </button>
           </Link>{" "}
-          for more information.
         </CookieConsent>
       </header>
     </>

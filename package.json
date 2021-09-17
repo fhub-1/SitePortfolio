@@ -8,7 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@apollo/client": "^3.4.11",
     "axios": "^0.21.1",
+    "graphql": "^15.5.3",
+    "graphql-request": "^3.5.0",
     "next": "10.x",
     "next-themes": "0.0.15",
     "react": "17.x",
