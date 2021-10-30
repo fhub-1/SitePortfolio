@@ -8,6 +8,8 @@ export default class MyDocument extends Document {
       <>
         <Html>
           <Head>
+            <script async src="https://cdn.splitbee.io/sb.js"></script>
+
             <script
               async
               src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1327925580473487"
@@ -33,7 +35,7 @@ export default class MyDocument extends Document {
             gtag('config', '${GA_TRACKING_ID}', {
               page_path: window.location.pathname,
             });
-          `,
+          `
               }}
             />
           </Head>
