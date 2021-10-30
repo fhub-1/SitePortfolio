@@ -16,7 +16,7 @@ export default function Projects() {
             <ProjectCard
               title={proj.title}
               link={proj.link}
-              imgUrl={proj.imgUrl}
+              // imgUrl={proj.imgUrl}
               number={`${idx + 1}`}
             />
           ))}
@@ -32,7 +32,7 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
       <div className="relative overflow-hidden">
         <div className="h-72 object-cover">
           <img
-            src={imgUrl}
+            // src={imgUrl}
             alt="portfolio"
             className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
           />
